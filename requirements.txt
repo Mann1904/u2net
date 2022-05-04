@@ -8,4 +8,4 @@ paddlehub
 gradio
 tensorflow==2.8.0
 streamlit
-scikit-image==0.19.2
+#scikit-image==0.19.2
