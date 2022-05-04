@@ -39,7 +39,7 @@ def save_output(image_name,pred,d_dir):
     im = Image.fromarray(predict_np*255).convert('RGB')
     img_name = image_name.split(os.sep)[-1]
     #image = io.imread(image_name)
-    image = np.array(Image.open('1.jpg'))
+    image = np.array(Image.open(img_name))
     imo = im.resize((image.shape[1],image.shape[0]),resample=Image.BILINEAR)
 
     pb_np = np.array(imo)
