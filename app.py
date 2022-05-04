@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.preprocessing.image import img_to_array
 import numpy as np
 from PIL import Image as Img
-import cv2
+#import cv2
 import glob
 
 def process_image_named(name, threshold_cutoff = 0.90, use_transparency = False):
