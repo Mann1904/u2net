@@ -8,6 +8,8 @@ from PIL import Image as Img
 #import cv2
 import glob
 
+os.system('pip install scikit-image')
+
 def process_image_named(name, threshold_cutoff = 0.90, use_transparency = False):
 
   extension = "."+name.split(".")[-1]
